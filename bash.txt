@@ -1,0 +1,3 @@
+useful commands in bash
+(history | grep 'qqch') it show out the commands with 'qqch'
+(!number) it execute the command asociated to the 'number' in history
