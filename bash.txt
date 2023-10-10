@@ -3,3 +3,4 @@ useful commands in bash
 (!number) it execute the command asociated to the 'number' in history
 (echo $SHELL) it show the shell already
 (echo sw >> file.txt) it enter somewhat in the file.txt
+(zsh) this initializes ohmyzsh
