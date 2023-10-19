@@ -7,3 +7,4 @@ useful commands in bash
 (alias word=large commmand) it change a large command for a word
 (export VAR=qqch) it store qqch in the variable VAR
 (chmod +x file.sh) it provide permission of execution to 'file.sh'
+(grep -v sw) it exclude lines that contain somewhat
