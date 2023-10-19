@@ -7,10 +7,10 @@
 # Set strict mode. 
 set -e #Causes shell to exit when a command fails
 
-# Enable printing of shell input lines as they are read
+# Enable printing of shell input all lines as they are read
 set -v 
 
-# Enable print of command traces before executing command
+# Enable print of only command traces before executing command
 set -x
 
 # Set a variable
@@ -18,3 +18,6 @@ variable="one"
 
 echo "This is a script with a variable: $variable"
 
+cat fail.txt
+
+echo "This line wouldn't be printing out"
