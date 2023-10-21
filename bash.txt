@@ -9,9 +9,20 @@
 (export VAR=qqch) it store qqch in the variable VAR
 (chmod +x file.sh) it provide permission of execution to 'file.sh'
 (grep -v sw) it exclude lines that contain somewhat
-(cp) copy files or directorys
+(cp) copy files or directories
 (ls) display the content
 (rm) remove files
-(rmdir) remove directorys
-(mkdir) create directorys
-(mv) move file or directorys, and also could change the name
+(rmdir) remove directories
+(mkdir) create directories
+(mv) move file or directories, and also could change the name
+	rwx read write excutable
+(chmod 777 file) gives binary (rwx=7) permission to user group other
+(zip -r location/name.zip source) it archive files in source with the name.zip
+(unzip name.zip)
+(tar -zcvf location/name.tgz source) it archive files in source with the name.tgz
+(tar -zxvf name.tgz)
+(find -name "*.py") find files .py
+(head -n number file) it displays the first number rows in the file
+(tail -n number file) ir displays the last number rows in the file
+(tr a-z A-Z) it transliterate lowercase to uppercase
+(sed 's/qqch/sw' file) it exchange qqch for somewhat in the file
