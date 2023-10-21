@@ -1,5 +1,6 @@
-useful commands in bash
-(history | grep 'qqch') it show out the commands with 'qqch'
+	useful commands in bash
+
+(history | grep 'qqch') it display the commands with 'qqch'
 (!number) it execute the command asociated to the 'number' in history
 (echo $SHELL) it printing out the shell already
 (echo sw >> file.txt) it enter somewhat in the 'file.txt'
@@ -8,3 +9,9 @@ useful commands in bash
 (export VAR=qqch) it store qqch in the variable VAR
 (chmod +x file.sh) it provide permission of execution to 'file.sh'
 (grep -v sw) it exclude lines that contain somewhat
+(cp) copy files or directorys
+(ls) display the content
+(rm) remove files
+(rmdir) remove directorys
+(mkdir) create directorys
+(mv) move file or directorys, and also could change the name
